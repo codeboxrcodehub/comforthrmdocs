@@ -1,3 +1,13 @@
+---
+title: "Comfort Job Documentation"
+description: "Comfort Job index description."
+keywords: "Comfort Job index keywords."
+url: "/comfortjob/how-to-install"
+type: "type"
+site_name: "Comfort HRM"
+image: "https://comforthrm.com/assets/images/seo.png"
+card: "article"
+---
 # How to Install
 
 The core plugin name is **“Comfort Job”** and our pro addon name is **“Comfort Job Pro Addon”**.

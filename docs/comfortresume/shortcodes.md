@@ -1,3 +1,13 @@
+---
+title: "Comfort Job Application Documentation"
+description: "Comfort Resume index description."
+keywords: "Comfort Resume index keywords."
+url: "/comfortresume/shortcodes"
+type: "type"
+site_name: "Comfort HRM"
+image: "https://comforthrm.com/assets/images/seo.png"
+card: "article"
+---
 # Shortcodes
 
 There are multiple shortcodes in both core plugin and pro addon.

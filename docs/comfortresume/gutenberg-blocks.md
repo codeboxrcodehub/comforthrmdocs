@@ -1,3 +1,13 @@
+---
+title: "Comfort Job Application Documentation"
+description: "Comfort Resume index description."
+keywords: "Comfort Resume index keywords."
+url: "/comfortresume/gutenberg-blocks"
+type: "type"
+site_name: "Comfort HRM"
+image: "https://comforthrm.com/assets/images/seo.png"
+card: "article"
+---
 # Gutenberg Blocks
 
 Comfort Resume for WordPress plugin supports Gutenberg editor and provides two block. To add Comfort Resume widget in the block editor.

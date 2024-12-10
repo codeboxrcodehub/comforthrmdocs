@@ -1,11 +1,39 @@
-import { defineConfig } from 'vitepress';
 import dotenv from 'dotenv';
-
+import { defineConfig, HeadConfig } from 'vitepress'
 //const dotenv = require('dotenv');
 
 dotenv.config();
 
+const base_url = process.env.VITEPRESS_BASE_URL || 'https://github.com/codeboxrcodehub/comforthrmdocs';
+
 export default {
+  sitemap: {
+    hostname: base_url
+  },
+  transformHead: ({ pageData }) => {
+    const head: HeadConfig[] = [];
+
+    head.push(['meta', { property: 'keywords', content: pageData.frontmatter.keywords }]);
+
+
+    head.push(['meta', { property: 'og:site_name', content: pageData.frontmatter.site_name }]);
+    head.push(['meta', { property: 'og:title', content: pageData.frontmatter.title }]);
+    head.push(['meta', { property: 'og:description', content: pageData.frontmatter.description }]);
+    head.push(['meta', { property: 'og:keywords', content: pageData.frontmatter.keywords }]);
+    head.push(['meta', { property: 'og:type', content: pageData.frontmatter.type }]);
+    head.push(['meta', { property: 'og:url', content: base_url + pageData.frontmatter.url }]);
+    head.push(['meta', { property: 'og:image', content: pageData.frontmatter.image }]);
+
+    head.push(['meta', { property: 'twitter:site', content: pageData.frontmatter.site_name }]);
+    head.push(['meta', { property: 'twitter:title', content: pageData.frontmatter.title }]);
+    head.push(['meta', { property: 'twitter:description', content: pageData.frontmatter.description }]);
+    head.push(['meta', { property: 'twitter:keywords', content: pageData.frontmatter.keywords }]);
+    head.push(['meta', { property: 'twitter:card', content: pageData.frontmatter.type }]);
+    head.push(['meta', { property: 'twitter:url', content: base_url + pageData.frontmatter.url }]);
+    head.push(['meta', { property: 'twitter:image', content: pageData.frontmatter.image }]);
+
+    return head
+  },
   title: "Comfort HRM",
   description: "An awesome docs template built by me",
   lang: 'en-US',

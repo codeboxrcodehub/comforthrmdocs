@@ -1,3 +1,14 @@
+---
+title: "Comfort Job Application Documentation"
+description: "Comfort Resume index description."
+keywords: "Comfort Resume index keywords."
+url: "/comfortresume/template-override"
+type: "type"
+site_name: "Comfort HRM"
+image: "https://comforthrm.com/assets/images/seo.png"
+card: "article"
+
+---
 # How to Override Template
 
 

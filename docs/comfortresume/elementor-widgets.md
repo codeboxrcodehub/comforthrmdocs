@@ -1,3 +1,13 @@
+---
+title: "Comfort Job Application Documentation"
+description: "Comfort Resume index description."
+keywords: "Comfort Resume index keywords."
+url: "/comfortresume/elementor-widgets"
+type: "type"
+site_name: "Comfort HRM"
+image: "https://comforthrm.com/assets/images/seo.png"
+card: "article"
+---
 # Elementor Widgets
 
 Comfort Resume for WordPress plugin supports Elementor editor and provides two widget. To add Comfort Resume widget in elementor editor.

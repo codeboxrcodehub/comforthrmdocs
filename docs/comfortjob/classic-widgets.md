@@ -1,3 +1,13 @@
+---
+title: "Comfort Job Documentation"
+description: "Comfort Job index description."
+keywords: "Comfort Job index keywords."
+url: "/comfortjob/classic-widgets"
+type: "article"
+site_name: "Comfort HRM"
+image: "https://comforthrm.com/assets/images/seo.png"
+card: "article"
+---
 # Classic Widgets
 
 WordPress currently doesn’t support classic widgets but still you can enable it by using this plugin [“Classic Widgets”](https://wordpress.org/plugins/classic-widgets/)
