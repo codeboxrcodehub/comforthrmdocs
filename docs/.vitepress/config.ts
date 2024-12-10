@@ -51,7 +51,7 @@ export default {
     },
     // Navbar Link
     nav: [
-      { text: "Job", link: "/comfortjob/" },
+      { text: "Job 2", link: "/comfortjob/" },
       { text: "Resume", link: "/comfortresume/" },
       { text: "Job Application", link: "/comfortjobapp/" },
     ],
