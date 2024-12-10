@@ -47,10 +47,19 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install dependencies
         run: npm ci # or pnpm install / yarn install / bun install
-      - name: Set github env params to env file
-        uses: c-py/action-dotenv-to-setenv@v5
+      #- name: Set github env params to env file
+      #  uses: c-py/action-dotenv-to-setenv@v5
+      #  with:
+      #      env-file: .env
+      - name: 'Create env file'
+        run: touch .env
+      - name: Creating .env file
+        uses: fmunirdev/envvar-to-dotenv-action@v0.2.0
+        env:
+             VITEPRESS_BASE_URL: ''
+             VITEPRESS_BASE: ''
         with:
-            env-file: .env
+             variableName: VITEPRESS_BASE_URL,VITEPRESS_BASE
       - name: Build with VitePress
         run: npm run docs:build # or pnpm docs:build / yarn docs:build / bun run docs:build
       - name: Upload artifact
