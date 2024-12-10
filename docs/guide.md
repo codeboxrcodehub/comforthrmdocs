@@ -289,6 +289,7 @@ docs/
 └── get-started.md
 ```
 
+
 Create these files inside your docs folder and add a simple markup inside them just to see how this works. This page is basic markdown so all your markdown syntax like links, code blocks, headings, etc works here.
 
 Just for testing purposes, copy this markdown content and paste it inside any of the `.md` file you just created.
