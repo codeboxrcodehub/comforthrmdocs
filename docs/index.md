@@ -5,11 +5,11 @@ layout: home
 title: "Comfort HRM"
 description: "Comfort index description."
 keywords: "Comfort index keywords."
-url: "/comfortjob/"
+url: "/"
 type: "type"
 site_name: "Comfort HRM"
 image: "https://comforthrm.com/assets/images/seo.png"
-card: "article"
+card: "website"
 
 # Hero section
 hero:
