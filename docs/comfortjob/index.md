@@ -7,7 +7,6 @@ type: "type"
 site_name: "Comfort HRM"
 image: "https://comforthrm.com/assets/images/seo.png"
 card: "article"
-
 ---
 
 # Comfort Job Documentation

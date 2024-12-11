@@ -3,7 +3,7 @@ import { defineConfig, HeadConfig } from 'vitepress'
 
 dotenv.config();
 
-const base_url = process.env.VITEPRESS_BASE_URL || 'https://github.com/codeboxrcodehub/comforthrmdocs2222';
+const base_url = process.env.VITEPRESS_BASE_URL || 'https://github.com/codeboxrcodehub/comforthrmdocs';
 
 export default {
   sitemap: {
