@@ -1,6 +1,5 @@
 import dotenv from 'dotenv';
 import { defineConfig, HeadConfig } from 'vitepress'
-//const dotenv = require('dotenv');
 
 dotenv.config();
 
