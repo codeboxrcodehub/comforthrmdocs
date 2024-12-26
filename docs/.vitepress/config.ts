@@ -107,11 +107,13 @@ export default {
           items: [
             { text: 'General', link: '/comfortjob/user-guide/general' },
             { text: 'Job Manager', link: '/comfortjob/user-guide/job-manager' },
-            { text: 'Settings Manager', link: '/comfortjob/user-guide/settings-manager' },
+            { text: 'Settings Manager', link: '/comfortjob/user-guide/settings' },
             { text: 'Company Manager', link: '/comfortjob/user-guide/company-manager' },
-            { text: 'Category Manager', link: '/comfortjob/user-guide/category-manager' },
-            { text: 'Category Manager', link: '/comfortjob/user-guide/category-manager' },
+            { text: 'Job Category', link: '/comfortjob/user-guide/job-category' },
+            { text: 'Job Type', link: '/comfortjob/user-guide/job-type' },
+            { text: 'Job Tags', link: '/comfortjob/user-guide/job-tags' },
             { text: 'Tools Manager', link: '/comfortjob/user-guide/tools-manager' },
+            { text: 'Emails', link: '/comfortjob/user-guide/emails' },
           ],
         }
       ],

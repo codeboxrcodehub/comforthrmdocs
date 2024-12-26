@@ -2,7 +2,7 @@
 title: "Comfort Job Documentation"
 description: "Comfort Job index description."
 keywords: "Comfort Job index keywords."
-url: "/comfortjob/user-guide/job-type"
+url: "/comfortjob/user-guide/job-tags"
 type: "type"
 site_name: "Comfort HRM"
 image: "https://comforthrm.com/assets/images/seo.png"
@@ -10,10 +10,10 @@ card: "article"
 
 ---
 
-### Job Types
+### Job Categories
 
-1. Go to `Comfort Job > Job Types`.
-2. Add new job types by filling in the name and slug.
+1. Go to `Comfort Job > Job Categories`.
+2. Add new job categories by filling in the name and description.
 3. Save changes.
 
 

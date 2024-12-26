@@ -2,7 +2,7 @@
 title: "Comfort Job Documentation"
 description: "Comfort Job index description."
 keywords: "Comfort Job index keywords."
-url: "/comfortjob/user-guide/category-manager"
+url: "/comfortjob/user-guide/job-category"
 type: "type"
 site_name: "Comfort HRM"
 image: "https://comforthrm.com/assets/images/seo.png"

@@ -2,7 +2,7 @@
 title: "Comfort Job Documentation"
 description: "Comfort Job index description."
 keywords: "Comfort Job index keywords."
-url: "/comfortjob/"
+url: "/comfortjob/user-guide/company-manager"
 type: "type"
 site_name: "Comfort HRM"
 image: "https://comforthrm.com/assets/images/seo.png"
@@ -19,7 +19,14 @@ card: "article"
 ## Adding Company Listings
 
 1. Go to `Comfort Job > Add New Company`.
-2. Fill in the Company details such as title, description, website, email address, and phone number etc.
-3. Publish the Company.
+2. Fill in the company details. The required fields are:
+   - **Company Name**: The name of the company.
+   - **Company Description**: A detailed description of the company.
+3. Optional fields include:
+   - **Company Website**: The company's website URL.
+   - **Company Logo**: Upload the company's logo.
+   - **Company Location**: The location of the company.
+   - **Company Email**: The company's contact email address.
+   - **Company Phone**: The company's contact phone number.
 
 
