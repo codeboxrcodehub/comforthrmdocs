@@ -11,7 +11,6 @@ site_name: "Comfort HRM"
 image: "https://comforthrm.com/assets/images/seo.png"
 card: "website"
 
-
 # Hero section
 hero:
   name: Comfort HRM

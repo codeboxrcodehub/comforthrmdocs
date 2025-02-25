@@ -238,3 +238,4 @@ export default {
     sidebarMenuLabel: 'Menu',
   },
 };
+
