@@ -45,7 +45,7 @@ features:
 ---
 
 <!-- Custom home layout -->
-<div class="custom-layout">
+<div class="custom-layout custom-layout-1">
   <h1>🏀</h1>
   <h1>Custom Layout</h1>
   <p>This section was added using plain HTML and CSS. </p>
