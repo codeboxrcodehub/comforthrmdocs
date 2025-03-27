@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vitepress": "^1.6.3",
+    "vitepress": "^1.0.0-rc.45",
     "vue": "^3.5.13"
   },
   "devDependencies": {
@@ -24,6 +24,8 @@
     "gulp": "^5.0.0",
     "gulp-cli": "^3.0.0",
     "gulp-replace": "^1.1.4",
-    "path": "^0.12.7"
+    "minisearch": "^7.1.2",
+    "path": "^0.12.7",
+    "shiki": "^3.2.1"
   }
 }
