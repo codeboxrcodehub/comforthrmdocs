@@ -66,4 +66,4 @@ add_action('comfortjob_after_job_listing');
 - `do_action('comfortjob_job_single_end', $job);`
 
 
-**Last modified:** December 26, 2024
+**Last modified:** December 26, 2025

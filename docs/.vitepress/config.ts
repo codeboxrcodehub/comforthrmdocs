@@ -227,7 +227,7 @@ export default {
     },
     footer: {
       message: "Released under the MIT License.",
-      copyright: "Copyright © 2024-present Comfort HRM",
+      copyright: "Copyright © 2025-present Comfort HRM",
     },
     markdown: {
       theme: "material-palenight",

@@ -26,4 +26,4 @@ The following classic widgets(currently 2 widgets (core and pro)) can be accesse
 1.  Latest Resume
 2.  Resume List (pro)
 
-**Last modified:** December 9, 2024
+**Last modified:** December 9, 2025

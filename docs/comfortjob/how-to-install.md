@@ -25,4 +25,4 @@ You can install Comfort Job plugin from your wordpress dashboard -> Plugins -> A
 **Comfort Job Addon** doesn’t work without the core plugin **Comfort Job**. So, before you install the pro addon you need to have the core Comfort Job plugin installed and activated (if you want to activate this pro addon). So, Comfort Job Pro Addon is an addon plugin for core plugin Comfort Job.  
 To install CBX Changelog Pro Addon you have to purchase [license and download](https://codeboxr.com/product/cbx-changelog-for-wordpress/#downloadarea) from our website and then install manually.
 
-**Last modified:** December 9, 2024
+**Last modified:** December 9, 2025
