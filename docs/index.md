@@ -2,14 +2,6 @@
 
 layout: home
 
-title: "Comfort HRM"
-description: "Comfort index description."
-keywords: "Comfort index keywords."
-url: "/"
-type: "type"
-site_name: "Comfort HRM"
-image: "https://comforthrm.com/assets/images/seo.png"
-card: "website"
 
 # Hero section
 hero:
@@ -25,7 +17,7 @@ hero:
       link: /comfortresume
     - theme: alt
       text: Try Comfort HRM Plugins
-      link: https://comforthrm.com/
+      link: https://comforthrm.com
 
 # Features section
 features:
@@ -41,6 +33,31 @@ features:
   - icon: 🎀
     title: Comfort XYZ
     details: Coming soon!
+
+# Meta property
+head:
+  - - meta
+    - property: og:type
+      content: website
+  - - meta
+    - property: og:title
+      content: Comfort HRM Documentation
+  - - meta
+    - property: og:image
+      content: seo_card.png
+  - - meta
+    - property: og:url
+      content: https://docs.comforthrm.com
+  - - meta
+    - name: title
+      content: Comfort HRM Documentation
+  - - meta
+    - name: twitter:card
+      content: seo_card.png
+  - - link
+    - rel: icon
+      type: image/svg
+      href: logo_icon_brand_512.png
 
 ---
 
