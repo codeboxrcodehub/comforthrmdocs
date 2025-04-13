@@ -44,7 +44,7 @@ head:
       content: Comfort HRM Documentation
   - - meta
     - property: og:image
-      content: seo_card.png
+      content: /seo_card.png
   - - meta
     - property: og:url
       content: https://docs.comforthrm.com
@@ -53,11 +53,11 @@ head:
       content: Comfort HRM Documentation
   - - meta
     - name: twitter:card
-      content: seo_card.png
+      content: /seo_card.png
   - - link
     - rel: icon
       type: image/svg
-      href: logo_icon_brand_512.png
+      href: /logo_icon_brand_512.png
 
 ---
 
