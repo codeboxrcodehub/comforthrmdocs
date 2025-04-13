@@ -1,7 +1,7 @@
 ---
 title: "Comfort Job Documentation"
-description: "Comfort Job index description."
-keywords: "Comfort Job index keywords."
+description: "Documentation for Comfort Job"
+keywords: "comfort job, wordpress, wordpress job plugin, plugin"
 url: "/comfortjob/shortcodes"
 type: "type"
 site_name: "Comfort HRM"

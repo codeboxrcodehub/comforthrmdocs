@@ -1,6 +1,6 @@
 ---
 title: "Comfort Job Documentation"
-description: "Comfort Job index description."
+description: "Documentation for Comfort Job"
 keywords: "Comfort Job index keywords."
 url: "/comfortjob/user-guide/general"
 type: "type"
