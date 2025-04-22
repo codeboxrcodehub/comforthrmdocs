@@ -57,7 +57,7 @@ head:
   - - link
     - rel: icon
       type: image/svg
-      href: /logo_icon_brand_512.png
+      href: /favicon.ico
 
 ---
 
