@@ -20,7 +20,6 @@ The Comfort Resume plugin includes an email system to notify users about various
 2. Edit the copied template file as needed.
 
 #### Available Email Templates
-Sends notification to admin on resume created by guest user.
 - **Resume creation guest user Email for Admin**: `guest_resume_create_to_admin.php`
 - **Job Application Email with resume Email**: `job_applied_by_resume.php`
 - **Resume Saved as Draft Email For User**: `resume_draft_to_user.php`

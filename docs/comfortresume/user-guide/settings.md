@@ -27,7 +27,7 @@ The Comfort Resume plugin is designed with a modular and intuitive settings stru
 Navigate to **Comfort Resume > Settings** in the WordPress admin dashboard. This section is organized into various sections, each dedicated to specific configuration options.
 
 ## General Settings ##
-These fundamental settings allow you to define core parameters for your accounting system. Some key options:
+These fundamental settings allow you to define core parameters for your system. Some key options:
 
 **Pages Slug** Set the slug country for different pages over the plugin.
 

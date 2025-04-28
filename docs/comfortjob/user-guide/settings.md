@@ -27,9 +27,9 @@ The Comfort Job plugin is designed with a modular and intuitive settings structu
 Navigate to **Comfort Job > Settings** in the WordPress admin dashboard. This section is organized into various sections, each dedicated to specific configuration options.
 
 ## Basic Settings ##
-These fundamental settings allow you to define core parameters for your accounting system. Some key options:
+These fundamental settings allow you to define core parameters for your job builder system. Some key options:
 
-**Pages Slug** Set the slug country for different pages over the plugin.\
+**Pages Slug** Set the slug country for different pages over the plugin.
 
 ### File Attachments
 The File Upload/Attachments Settings section allows users to manage file attachments within the Comfort Job plugin, particularly for the Log component. These settings ensure that file uploads are handled securely and efficiently, aligning with your operational requirements.

@@ -11,6 +11,6 @@ card: "article"
 ---
 # Comfort Job Application Documentation
 
-Welcome to the Comfort Job Application main page.
+ComfortJobApp simplifies the job application process for candidates and recruiters. Manage applications efficiently with this plugin.
 
 

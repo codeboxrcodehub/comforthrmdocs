@@ -194,11 +194,10 @@ export default {
             collapsible: true,
             items: [
               { text: 'General', link: '/comfortjobapp/user-guide/general' },
-              { text: 'Settings Manager', link: '/comfortjobapp/user-guide/settings-manager' },
-              { text: 'Agency Manager', link: '/comfortjobapp/user-guide/agency-manager' },
-              { text: 'Account Manager', link: '/comfortjobapp/user-guide/account-manager' },
-              { text: 'Category Manager', link: '/comfortjobapp/user-guide/category-manager' },
+              { text: 'Application Manager', link: '/comfortjobapp/user-guide/application-manager' },
+              { text: 'Settings Manager', link: '/comfortjobapp/user-guide/settings' },
               { text: 'Tools Manager', link: '/comfortjobapp/user-guide/tools-manager' },
+              { text: 'Emails', link: '/comfortjobapp/user-guide/emails' },
             ],
           }
         ],

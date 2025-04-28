@@ -35,10 +35,12 @@ resume/
 │   └── ComfortResumeUninstall.php
 ├── templates/
 │   ├── admin/
+│   ├── emails/
 │   ├── global/
+│   ├── loop/
 │   ├── resume/
 │   └── shortcodes/
-├── resume.php
+├── comfortresume.php
 └── readme.txt
 ```
 ## Key Files and Directories
@@ -46,7 +48,7 @@ resume/
 - **assets/**: Contains CSS, JavaScript, and vendor files.
 - **includes/**: Contains core PHP files for the plugin, including API routes, controllers, helpers, models, and main plugin classes.
 - **templates/**: Contains template files for the plugin's frontend and admin views.
-- **resume.php**: The main plugin file that initializes the plugin.
+- **comfortresume.php**: The main plugin file that initializes the plugin.
 
 ### ComfortResume
 
