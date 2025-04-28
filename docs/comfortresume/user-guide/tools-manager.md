@@ -1,8 +1,8 @@
 ---
-title: "Comfort Job Documentation"
-description: "Documentation for Comfort Job"
-keywords: "comfort job, wordpress, wordpress job plugin, plugin"
-url: "/comfortjob/user-guide/tools-manager"
+title: "Comfort Resume Documentation"
+description: "Documentation for Comfort Resume"
+keywords: "comfort resume, wordpress, wordpress resume plugin, plugin"
+url: "/comfortresume/user-guide/tools-manager"
 type: "type"
 site_name: "Comfort HRM"
 image: "https://comforthrm.com/assets/images/seo.png"

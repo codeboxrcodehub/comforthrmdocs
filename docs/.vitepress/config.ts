@@ -155,10 +155,10 @@ export default {
             collapsible: true,
             items: [
               { text: 'General', link: '/comfortresume/user-guide/general' },
-              { text: 'Job Manager', link: '/comfortresume/user-guide/resume-manager' },
+              { text: 'Resume Manager', link: '/comfortresume/user-guide/resume-manager' },
               { text: 'Settings Manager', link: '/comfortresume/user-guide/settings' },
-              { text: 'Job Category', link: '/comfortresume/user-guide/resume-category' },
-              { text: 'Job Tags', link: '/comfortresume/user-guide/resume-tags' },
+              { text: 'Resume Category', link: '/comfortresume/user-guide/resume-category' },
+              { text: 'Resume Tags', link: '/comfortresume/user-guide/resume-tags' },
               { text: 'Tools Manager', link: '/comfortresume/user-guide/tools-manager' },
               { text: 'Emails', link: '/comfortresume/user-guide/emails' },
             ],

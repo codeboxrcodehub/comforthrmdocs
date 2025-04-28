@@ -26,4 +26,3 @@ The core Comfort Resume plugin is not available at wordpress plugin directory ye
 **Comfort Resume Addon** doesn’t work without the core plugin **Comfort Resume**. So, before you install the pro addon you need to have the core Comfort Resume plugin installed and activated (if you want to activate this pro addon). So, Comfort Resume Pro Addon is an addon plugin for core plugin Comfort Resume.  
 To install Comfort Resume Pro Addon you have to purchase [license and download](https://comforthrm.com/product/comfort-resume-wordpress-resume-builder-plugin#downloadarea) from our website and then install manually.
 
-**Last modified:** December 9, 2025

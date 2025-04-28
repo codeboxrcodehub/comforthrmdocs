@@ -25,4 +25,3 @@ The following classic widgets(currently 0 widgets (core and pro)) can be accesse
 
 
 
-**Last modified:** December 9, 2025

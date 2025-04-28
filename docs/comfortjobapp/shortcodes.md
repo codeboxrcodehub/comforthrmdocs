@@ -11,4 +11,3 @@ card: "article"
 # Shortcodes
 
 
-**Last modified:** December 9, 2025

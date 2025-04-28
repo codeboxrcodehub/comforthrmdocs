@@ -113,4 +113,3 @@ Shortcode can be added in theme directly following this below code snippet
 https://gist.github.com/manchumahara/c4761d5c30f309694d0bd269b9fccaf9
 
 
-**Last modified:** December 9, 2025

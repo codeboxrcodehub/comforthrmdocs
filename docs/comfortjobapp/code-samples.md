@@ -13,4 +13,3 @@ card: "article"
 
 
 
-**Last modified:** December 9, 2025

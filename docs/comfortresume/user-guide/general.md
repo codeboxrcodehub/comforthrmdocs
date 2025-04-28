@@ -50,7 +50,7 @@ resume/
 
 ### ComfortResume
 
-The main class for the plugin, located in `wp-content/plugins/resume/includes/ComfortResume.php`.
+The main class for the plugin, located in `wp-content/plugins/comfortresume/includes/ComfortResume.php`.
 
 ```php
 class ComfortResume {
@@ -109,50 +109,34 @@ class ComfortResumeShortcode {
 }
 ```
 
-### Job Details
+### Resume Details
 
 To display resume details, use the following shortcode:
 
 ```php
-[resume_resume_details]
+[comfortresume_resume_details]
 ```
 
-### Job Archive
+### Resume Archive
 
 To display a list of resume listings, use the following shortcode:
 
 ```php
-[resume_resume_archive]
+[comfortresume_resume_archive]
 ```
 
-### Employer Dashboard
-
-To display the employer dashboard, use the following shortcode:
-
-```php
-[resume_employer_dashboard]
-```
-
-### Candidate Dashboard
-
-To display the candidate dashboard, use the following shortcode:
-
-```php
-[resume_candidate_dashboard]
-```
-
-### Job Dashboard
+### Resume Dashboard
 
 To display the resume dashboard, use the following shortcode:
 
 ```php
-[resume_resume_dashboard]
+[comfortresume_resume_dashboard]
 ```
 
-### Frontend Job Management
+### Frontend Resume Management
 
 1. Create a new page in WordPress.
-2. Add the `[resume_resume_manager]` shortcode to the page content.
+2. Add the `[comfortresume_resume_manager]` shortcode to the page content.
 3. Publish the page.
 4. Users can now submit resume listings from the frontend.
 
@@ -163,5 +147,5 @@ The uninstallation script is located in ComfortResumeUninstall.php.
 
 ```
 <?php
-do_action('resume_plugin_uninstall');
+ComfortResumeUninstall::uninstall();
 ```

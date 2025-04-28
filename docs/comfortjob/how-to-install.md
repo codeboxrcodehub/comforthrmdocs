@@ -26,4 +26,3 @@ The core Comfort Job plugin is not available at wordpress plugin directory yet(w
 **Comfort Job Addon** doesn’t work without the core plugin **Comfort Job**. So, before you install the pro addon you need to have the core Comfort Job plugin installed and activated (if you want to activate this pro addon). So, Comfort Job Pro Addon is an addon plugin for core plugin Comfort Job.  
 To install Comfort Job Addon you have to purchase [license and download](https://comforthrm.com/product/comfort-job-wordpress-job-board-plugin#downloadarea) from our website and then install manually.
 
-**Last modified:** December 9, 2025

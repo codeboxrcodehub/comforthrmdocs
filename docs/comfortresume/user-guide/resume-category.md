@@ -1,8 +1,8 @@
 ---
-title: "Comfort Job Documentation"
-description: "Documentation for Comfort Job"
-keywords: "comfort job, wordpress, wordpress job plugin, plugin"
-url: "/comfortjob/user-guide/job-category"
+title: "Comfort Resume Documentation"
+description: "Documentation for Comfort Resume"
+keywords: "comfort resume, wordpress, wordpress resume plugin, resume builder"
+url: "/comfortresume/user-guide/resume-category"
 type: "type"
 site_name: "Comfort HRM"
 image: "https://comforthrm.com/assets/images/seo.png"
@@ -10,10 +10,10 @@ card: "article"
 
 ---
 
-### Job Categories
+### Resume Categories
 
-1. Go to `Comfort Job > Job Categories`.
-2. Add new job categories by filling in the name and description.
+1. Go to `Comfort Resume > Categories`.
+2. Add new resume categories by filling in the name and description.
 3. Save changes.
 
 

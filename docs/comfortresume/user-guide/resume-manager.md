@@ -1,8 +1,8 @@
 ---
-title: "Comfort Job Documentation"
-description: "Documentation for Comfort Job"
-keywords: "comfort job, wordpress, wordpress job plugin, plugin"
-url: "/comfortjob/user-guide/job-manager"
+title: "Comfort Resume Documentation"
+description: "Documentation for Comfort Resume"
+keywords: "comfort resume, wordpress, wordpress resume plugin, plugin"
+url: "/comfortresume/user-guide/resume-manager"
 type: "type"
 site_name: "Comfort HRM"
 image: "https://comforthrm.com/assets/images/seo.png"
@@ -10,28 +10,28 @@ card: "article"
 
 ---
 
-## Managing Job Listings
+## Managing Resume Listings
 
-1. Go to `Comfort Job > Job Manager`.
-2. View, edit, or delete job listings as needed.
-3. Use the filters to search for specific job listings.
+1. Go to `Comfort Resume > Resume Manager`.
+2. View, edit, or delete resume listings as needed.
+3. Use the filters to search for specific resume listings.
 
-## Adding Job Listings
+## Adding Resume Listings
 
-1. Go to `Comfort Job > Add New Job`.
-2. Fill in the job details. The required fields are:
-   - **Job Title**: The title of the job.
-   - **Job Description**: A detailed description of the job.
-   - **Job Expiration Date**: Set the date when the job listing should expire.
-   - **Company**: Select the company offering the job from the dropdown list.
-   - **Job Status**: Select the status of the job.
+1. Go to `Comfort Resume > Add New Resume`.
+2. Fill in the resume details. The required fields are:
+   - **About Me - First Name**: Your First Name.
+   - **About Me - Email**: Your Email.
+   - **About Me - Phone No**: Your Phone No.
+   - **About Me - Professional Title**: Your Professional Title.
+   - **Resume Description**: A detailed description of the resume.
+   - **Resume Status**: Select the status of the resume.
 3. Optional fields include:
-   - **Job Type**: Select the job type from the dropdown list (e.g., Full-Time, Part-Time).
-   - **Job Category**: Select the job category from the dropdown list.
-   - **Application Email/URL**: Provide an email address or URL where applications should be sent.
-   - **Job Location**: The location where the job is based.
-   - **Salary**: Provide the salary info for the job.
-   - **Job Tags**: Add relevant tags for the job.
-   - **Job Type**: Select Job type for the job.
-   - **Job Seo**: Add relevant seo fields value for the job.
-4. Publish the job listing.
+   - **About Me - Last Name**: Your Last Name.
+   - **About Me - Address**: Your Address.
+   - **About Me - About Me**: About you description.
+   - **Resume - Section**: Add relevant resume section and fill necessary fields.
+   - **Resume Category**: Select the resume category from the dropdown list.
+   - **Resume Tags**: Add relevant tags for the resume.
+   - **Resume Seo**: Add relevant seo fields value for the resume.
+4. Publish the resume listing.
