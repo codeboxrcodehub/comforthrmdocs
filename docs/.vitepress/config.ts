@@ -168,7 +168,7 @@ export default {
 
       '/comfortjobapp/': [
           {
-            text: 'Comfort Resume',
+            text: 'Comfort Job Application',
             collapsible: false,
           },
           {
@@ -183,13 +183,6 @@ export default {
             ],
           },
           {
-            text: 'Shortcode',
-            collapsible: true,
-            items: [
-              { text: '9 Shortcodes', link: '/comfortjobapp/shortcodes' },
-            ],
-          },
-          {
             text: 'User Guide',
             collapsible: true,
             items: [
@@ -201,20 +194,6 @@ export default {
             ],
           }
         ],
-      // '/comfortjobapp/': [
-      //   {
-      //     text: 'Comfort Job Application',
-      //     collapsible: true,
-      //     items: [
-      //       { text: 'How to install', link: '/comfortjobapp/how-to-install' },
-      //       { text: 'How to Translate', link: '/comfortjobapp/how-to-translate' },
-      //       { text: 'Template Override', link: '/comfortjobapp/template-override' },
-      //       { text: 'Shortcodes', link: '/comfortjobapp/shortcodes' },
-      //       { text: 'Hooks and Filters', link: '/comfortjobapp/hooks-and-filters' },
-      //       { text: 'Code Samples', link: '/comfortjobapp/code-samples' },
-      //     ],
-      //   },
-      // ],
      },
     // you can disable the previous and next page here
     docFooter: {

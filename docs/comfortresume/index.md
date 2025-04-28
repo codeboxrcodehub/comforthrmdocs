@@ -11,6 +11,6 @@ card: "article"
 ---
 # Comfort Resume Documentation
 
-Welcome to the Comfort Resume main page.
+Create resume in comfort
 
 

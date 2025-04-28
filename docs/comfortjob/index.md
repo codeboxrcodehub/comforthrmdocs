@@ -11,6 +11,6 @@ card: "article"
 
 # Comfort Job Documentation
 
-Welcome to the Comfort Job main page.
+ComfortJob allows you to create and manage job listings directly from your WordPress site. Employers can post jobs, and candidates can apply seamlessly.
 
 
