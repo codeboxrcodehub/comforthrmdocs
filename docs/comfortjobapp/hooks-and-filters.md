@@ -14,31 +14,8 @@ card: "article"
 
 ### Action Hooks
 
-1. **`comfortjobapp_single_application_details_email`**
-   - Triggered to display the application details email section.
-   - **Parameters**:
-     - `$application_id` (int): The ID of the application.
-     - `$application_data` (array): The application data.
-   - **Example**:
-     ```php
-     add_action( 'comfortjobapp_single_application_details_email', function( $application_id, $application_data ) {
-         // Custom logic for application email details
-     }, 10, 2 );
-     ```
 
-2. **`comfortjobapp_single_application_details_url`**
-   - Triggered to display the application details URL section.
-   - **Parameters**:
-     - `$application_id` (int): The ID of the application.
-     - `$application_data` (array): The application data.
-   - **Example**:
-     ```php
-     add_action( 'comfortjobapp_single_application_details_url', function( $application_id, $application_data ) {
-         // Custom logic for application URL details
-     }, 10, 2 );
-     ```
-
-3. **`comfortjobapp_wpheading_wrap_right_before`**
+1. **`comfortjobapp_wpheading_wrap_right_before`**
    - Triggered before the settings import/export button is added.
    - **Example**:
      ```php
@@ -47,7 +24,7 @@ card: "article"
      } );
      ```
 
-4. **`comfortjobapp_admin_enqueue_scripts`**
+2. **`comfortjobapp_admin_enqueue_scripts`**
    - Triggered to enqueue admin scripts and styles.
    - **Example**:
      ```php
