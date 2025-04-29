@@ -14,17 +14,26 @@ card: "article"
 ## Add a Job Programmatically
 
 ```php
-use Comfort\Job\Helpers\ComfortJobHelpers;
+<?php 
+use Comfort\Job\Models\ComfortJob;
+
+$currentDate             = gmdate( 'Y-m-d' );  // Get the current date
+$expiry_date             = gmdate( 'Y-m-d', strtotime( $currentDate . " +$listing_duration days" ) );
 
 // Add a new job
 $job_data = [
-    'title'       => 'Software Engineer',
-    'description' => 'We are looking for a skilled software engineer.',
-    'status'      => 'published',
-    'salary'      => '5000',
-    'company_id'  => 1,
+    'title'         => 'Software Engineer',
+    'slug'          => 'software-engineer',
+    'description'   => 'We are looking for a skilled software engineer.',
+    'status'        => 'published',
+    'salary_amount' => '5000',
+    'company_id'    => 1,
+    'owner'         => 1,
+    'expiry_date'   => $expiry_date,
+    'add_by'        = 1,
+    'add_date'      = gmdate( 'Y-m-d H:i:s' );
 ];
-$new_job = ComfortJobHelpers::addJob($job_data);
+$new_job = ComfortJob::create($job_data);
 ```
 
 ## Fetch Job Listings
@@ -33,7 +42,7 @@ $new_job = ComfortJobHelpers::addJob($job_data);
 use Comfort\Job\Helpers\ComfortJobHelpers;
 
 // Get all published jobs
-$jobs = ComfortJobHelpers::getJobs([
+$jobs = ComfortJobHelpers::jobListing([
     'status' => 'published',
     'limit'  => 10,
 ]);
@@ -54,17 +63,6 @@ file_put_contents('job_' . $job_id . '.json', $json_data);
 ---
 
 # Comfort Job Pro Addon – Code Samples
-
-## Bookmark a Job
-
-```php
-use Comfort\JobPro\Helpers\JobProHelpers;
-
-// Bookmark a job for a user
-$user_id = get_current_user_id();
-$job_id = 123;
-$result = JobProHelpers::bookmarkJob($user_id, $job_id);
-```
 
 ## Manage Company Pages
 

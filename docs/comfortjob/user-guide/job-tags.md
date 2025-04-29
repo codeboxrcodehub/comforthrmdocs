@@ -13,7 +13,7 @@ card: "article"
 ### Job Tags
 
 1. Go to `Comfort Job > Job Tags`.
-2. Add new job tags by filling in the name and description.
+2. Add new job tags by filling in the name field.
 3. Save changes.
 
 

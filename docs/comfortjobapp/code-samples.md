@@ -34,22 +34,7 @@ do_action( 'comfortjobapp_apply_job_form_after', $form_id, $job_id, $job, $field
 
 Retrieve a list of application forms for the current user.
 
-```
-<?php
-$forms = comfortjobapp_get_application_forms([
-    'limit'      => 10,
-    'page'       => 1,
-    'created_by' => get_current_user_id(),
-]);
-
-foreach ( $forms as $form ) {
-    echo esc_html( $form['title'] );
-}
-```
-### 3. Enqueue Public Scripts
-Enqueue public-facing scripts and pass JS translations.
-
-```
+```php
 <?php
 $forms = comfortjobapp_get_application_forms([
     'limit'      => 10,
@@ -62,17 +47,17 @@ foreach ( $forms as $form ) {
 }
 ```
 
-### 4. Delete an Application
+### 3. Delete an Application
 Delete an application by ID. 
-```
+```php
 <?php
 comfortjobapp_delete_application( $application_id );
 ```
 
-### 5. Delete a Form
+### 4. Delete a Form
 
 ```php
-// Delete a form by ID (ComfortJobApp)
+// Delete a form by ID 
 $result = comfortjobapp_delete_form($form_id);
 ```
 
@@ -81,7 +66,7 @@ $result = comfortjobapp_delete_form($form_id);
 ### 1. Add Employer Dashboard Menu
 Add a custom menu to the employer dashboard.
 
-```
+```php
 <?php
 add_filter( 'comfortjobapp_employer_dashboard_menus', function( $menus ) {
     $menus['custom_menu'] = [
@@ -100,7 +85,7 @@ function custom_menu_callback() {
 ### 2. Filter Application Steps
 Modify the application steps for the job application process.
 
-```
+```php
 <?php
 add_filter( 'comfortjobapp_steps', function( $steps ) {
     $steps['custom_step'] = esc_html__( 'Custom Step', 'comfortjobapppro' );
@@ -108,26 +93,10 @@ add_filter( 'comfortjobapp_steps', function( $steps ) {
 } );
 ```
 
-### 3. Custom Email Notification
-Customize the email notification sent to applicants.
-
-```
-<?php
-add_filter( 'comfortjobapp_email_template', function( $template, $application ) {
-    $template['subject'] = esc_html__( 'Thank you for applying!', 'comfortjobapppro' );
-    $template['body']    = sprintf(
-        esc_html__( 'Dear %s, thank you for applying for the %s position.', 'comfortjobapppro' ),
-        $application['candidate_name'],
-        $application['job_title']
-    );
-    return $template;
-}, 10, 2 );
-```
-
-### 4. Export Application Data
+### 3. Export Application Data
 Export application data in JSON format.
 
-```
+```php
 <?php
 add_action( 'admin_post_export_applications', function() {
     $applications = ComfortJobApp::query()->get()->toArray();
