@@ -1,6 +1,5 @@
 import dotenv from 'dotenv';
-import { defineConfig, HeadConfig } from 'vitepress'
-//const dotenv = require('dotenv');
+//import { defineConfig, HeadConfig } from 'vitepress'
 
 dotenv.config();
 
@@ -10,7 +9,7 @@ export default {
   sitemap: {
     hostname: base_url
   },
-  transformHead: ({ pageData }) => {
+  /*transformHead: ({ pageData }) => {
     const head: HeadConfig[] = [];
 
     head.push(['meta', { property: 'keywords', content: pageData.frontmatter.keywords }]);
@@ -33,9 +32,9 @@ export default {
     head.push(['meta', { property: 'twitter:image', content: pageData.frontmatter.image }]);
 
     return head
-  },
-  title: "Comfort HRM",
-  description: "An awesome docs template built by me",
+  },*/
+  title: "Comfort HRM Documentation",
+  description: "Documentation for Comfort HRM plugins",
   lang: 'en-US',
   // cleanUrls: true,
   //base: '/comforthrmdocs/',
@@ -51,20 +50,20 @@ export default {
     },
     // Navbar Link
     nav: [
-      { text: "Job 2", link: "/comfortjob/" },
       { text: "Resume", link: "/comfortresume/" },
+      { text: "Job", link: "/comfortjob/" },
       { text: "Job Application", link: "/comfortjobapp/" },
     ],
     //Social Icons
     socialLinks: [
       { icon: "github", link: "https://github.com/codeboxrcodehub/comforthrmdocs" },
-      { icon: "twitter", link: "https://twitter.com/victorekea" },
+      //{ icon: "twitter", link: "https://twitter.com/victorekea" },
       //{ icon: "discord", link: "..." },
       {
         icon: {
-          svg: '<svg role="img" width="26.01" height="32" viewBox="0 0 256 315"><path d="M213.803 167.03c.442 47.58 41.74 63.413 42.197 63.615c-.35 1.116-6.599 22.563-21.757 44.716c-13.104 19.153-26.705 38.235-48.13 38.63c-21.05.388-27.82-12.483-51.888-12.483c-24.061 0-31.582 12.088-51.51 12.871c-20.68.783-36.428-20.71-49.64-39.793c-27-39.033-47.633-110.3-19.928-158.406c13.763-23.89 38.36-39.017 65.056-39.405c20.307-.387 39.475 13.662 51.889 13.662c12.406 0 35.699-16.895 60.186-14.414c10.25.427 39.026 4.14 57.503 31.186c-1.49.923-34.335 20.044-33.978 59.822M174.24 50.199c10.98-13.29 18.369-31.79 16.353-50.199c-15.826.636-34.962 10.546-46.314 23.828c-10.173 11.763-19.082 30.589-16.678 48.633c17.64 1.365 35.66-8.964 46.64-22.262"/></svg>',
+          svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g fill="none" fill-rule="evenodd"><path d="M18 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8c0-1.1.9-2 2-2h5M15 3h6v6M10 14L20.2 3.8"/></g></svg>',
         },
-        link: "https://google.com",
+        link: "https://comforthrm.com",
       },
     ],
 
@@ -82,10 +81,6 @@ export default {
             { text: 'How to install', link: '/comfortjob/how-to-install' },
             { text: 'How to Translate', link: '/comfortjob/how-to-translate' },
             { text: 'Template Override', link: '/comfortjob/template-override' },
-            //{ text: 'Shortcodes', link: '/comfortjob/shortcodes' },
-            // { text: 'Classic Widgets', link: '/comfortjob/classic-widgets' },
-            // { text: 'Elementor Widget', link: '/comfortjob/elementor-widgets' },
-            // { text: 'Gutenberg Blocks', link: '/comfortjob/gutenberg-blocks' },
             { text: 'Hooks and Filters', link: '/comfortjob/hooks-and-filters' },
             { text: 'Code Samples', link: '/comfortjob/code-samples' },
           ],
@@ -94,15 +89,7 @@ export default {
           text: 'Shortcode',
           collapsible: true,
           items: [
-            // { text: 'How to install', link: '/comfortjob/how-to-install' },
-            // { text: 'How to Translate', link: '/comfortjob/how-to-translate' },
-            // { text: 'Template Override', link: '/comfortjob/template-override' },
             { text: '9 Shortcodes', link: '/comfortjob/shortcodes' },
-            // { text: 'Classic Widgets', link: '/comfortjob/classic-widgets' },
-            // { text: 'Elementor Widget', link: '/comfortjob/elementor-widgets' },
-            // { text: 'Gutenberg Blocks', link: '/comfortjob/gutenberg-blocks' },
-            // { text: 'Hooks and Filters', link: '/comfortjob/hooks-and-filters' },
-            // { text: 'Code Samples', link: '/comfortjob/code-samples' },
           ],
         },
         {
@@ -113,42 +100,100 @@ export default {
             { text: 'Elementor Widget', link: '/comfortjob/elementor-widgets' },
             { text: 'Gutenberg Blocks', link: '/comfortjob/gutenberg-blocks' },
           ],
+        },
+        {
+          text: 'User Guide',
+          collapsible: true,
+          items: [
+            { text: 'General', link: '/comfortjob/user-guide/general' },
+            { text: 'Job Manager', link: '/comfortjob/user-guide/job-manager' },
+            { text: 'Settings Manager', link: '/comfortjob/user-guide/settings' },
+            { text: 'Company Manager', link: '/comfortjob/user-guide/company-manager' },
+            { text: 'Job Category', link: '/comfortjob/user-guide/job-category' },
+            { text: 'Job Type', link: '/comfortjob/user-guide/job-type' },
+            { text: 'Job Tags', link: '/comfortjob/user-guide/job-tags' },
+            { text: 'Tools Manager', link: '/comfortjob/user-guide/tools-manager' },
+            { text: 'Emails', link: '/comfortjob/user-guide/emails' },
+          ],
         }
       ],
 
-    
-      // Sidebar for `/guide/` section
       '/comfortresume/': [
-        {
-          text: 'Comfort Resume',
-          collapsible: true,
-          items: [
-            { text: 'How to install', link: '/comfortresume/how-to-install' },
-            { text: 'How to Translate', link: '/comfortresume/how-to-translate' },
-            { text: 'Template Override', link: '/comfortresume/template-override' },
-            { text: 'Shortcodes', link: '/comfortresume/shortcodes' },
-            { text: 'Classic Widgets', link: '/comfortresume/classic-widgets' },
-            { text: 'Elementor Widget', link: '/comfortresume/elementor-widgets' },
-            { text: 'Gutenberg Blocks', link: '/comfortresume/gutenberg-blocks' },
-            { text: 'Hooks and Filters', link: '/comfortresume/hooks-and-filters' },
-            { text: 'Code Samples', link: '/comfortresume/code-samples' },
-          ],
-        },
-      ],
+          {
+            text: 'Comfort Resume',
+            collapsible: false,
+          },
+          {
+            text: 'Getting Started',
+            collapsible: true,
+            items: [
+              { text: 'How to install', link: '/comfortresume/how-to-install' },
+              { text: 'How to Translate', link: '/comfortresume/how-to-translate' },
+              { text: 'Template Override', link: '/comfortresume/template-override' },
+              { text: 'Hooks and Filters', link: '/comfortresume/hooks-and-filters' },
+              { text: 'Code Samples', link: '/comfortresume/code-samples' },
+            ],
+          },
+          {
+            text: 'Shortcode',
+            collapsible: true,
+            items: [
+              { text: '9 Shortcodes', link: '/comfortresume/shortcodes' },
+            ],
+          },
+          {
+            text: 'Widgets',
+            collapsible: true,
+            items: [
+              { text: 'Classic Widgets', link: '/comfortresume/classic-widgets' },
+              { text: 'Elementor Widget', link: '/comfortresume/elementor-widgets' },
+              { text: 'Gutenberg Blocks', link: '/comfortresume/gutenberg-blocks' },
+            ],
+          },
+          {
+            text: 'User Guide',
+            collapsible: true,
+            items: [
+              { text: 'General', link: '/comfortresume/user-guide/general' },
+              { text: 'Resume Manager', link: '/comfortresume/user-guide/resume-manager' },
+              { text: 'Settings Manager', link: '/comfortresume/user-guide/settings' },
+              { text: 'Resume Category', link: '/comfortresume/user-guide/resume-category' },
+              { text: 'Resume Tags', link: '/comfortresume/user-guide/resume-tags' },
+              { text: 'Tools Manager', link: '/comfortresume/user-guide/tools-manager' },
+              { text: 'Emails', link: '/comfortresume/user-guide/emails' },
+            ],
+          }
+        ],
+
+
       '/comfortjobapp/': [
-        {
-          text: 'Comfort Job Application',
-          collapsible: true,
-          items: [
-            { text: 'How to install', link: '/comfortjobapp/how-to-install' },
-            { text: 'How to Translate', link: '/comfortjobapp/how-to-translate' },
-            { text: 'Template Override', link: '/comfortjobapp/template-override' },
-            { text: 'Shortcodes', link: '/comfortjobapp/shortcodes' },
-            { text: 'Hooks and Filters', link: '/comfortjobapp/hooks-and-filters' },
-            { text: 'Code Samples', link: '/comfortjobapp/code-samples' },
-          ],
-        },
-      ],
+          {
+            text: 'Comfort Job Application',
+            collapsible: false,
+          },
+          {
+            text: 'Getting Started',
+            collapsible: true,
+            items: [
+              { text: 'How to install', link: '/comfortjobapp/how-to-install' },
+              { text: 'How to Translate', link: '/comfortjobapp/how-to-translate' },
+              { text: 'Template Override', link: '/comfortjobapp/template-override' },
+              { text: 'Hooks and Filters', link: '/comfortjobapp/hooks-and-filters' },
+              { text: 'Code Samples', link: '/comfortjobapp/code-samples' },
+            ],
+          },
+          {
+            text: 'User Guide',
+            collapsible: true,
+            items: [
+              { text: 'General', link: '/comfortjobapp/user-guide/general' },
+              { text: 'Application Manager', link: '/comfortjobapp/user-guide/application-manager' },
+              { text: 'Settings Manager', link: '/comfortjobapp/user-guide/settings' },
+              { text: 'Tools Manager', link: '/comfortjobapp/user-guide/tools-manager' },
+              { text: 'Emails', link: '/comfortjobapp/user-guide/emails' },
+            ],
+          }
+        ],
      },
     // you can disable the previous and next page here
     docFooter: {
@@ -161,7 +206,7 @@ export default {
     },
     footer: {
       message: "Released under the MIT License.",
-      copyright: "Copyright © 2024-present Comfort HRM",
+      copyright: "Copyright © 2025-present Comfort HRM",
     },
     markdown: {
       theme: "material-palenight",
@@ -172,3 +217,4 @@ export default {
     sidebarMenuLabel: 'Menu',
   },
 };
+

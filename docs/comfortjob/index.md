@@ -1,17 +1,16 @@
 ---
 title: "Comfort Job Documentation"
-description: "Comfort Job index description."
-keywords: "Comfort Job index keywords."
+description: "Documentation for Comfort Job"
+keywords: "comfort job, wordpress, wordpress job plugin, plugin"
 url: "/comfortjob/"
 type: "type"
 site_name: "Comfort HRM"
 image: "https://comforthrm.com/assets/images/seo.png"
 card: "article"
-
 ---
 
 # Comfort Job Documentation
 
-Welcome to the Comfort Job main page.
+ComfortJob allows you to create and manage job listings directly from your WordPress site. Employers can post jobs, and candidates can apply seamlessly.
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Comfort Job Application Documentation"
-description: "Comfort Resume index description."
-keywords: "Comfort Resume index keywords."
+description: "Documentation for Comfort Resume"
+keywords: "comfort resume, wordpress, wordpress resume plugin, plugin"
 url: "/comfortresume/shortcodes"
 type: "type"
 site_name: "Comfort HRM"
@@ -85,4 +85,3 @@ Shortcode can be added in theme directly following this below code snippet
 
 https://gist.github.com/manchumahara/c4761d5c30f309694d0bd269b9fccaf9
 
-**Last modified:** December 9, 2024

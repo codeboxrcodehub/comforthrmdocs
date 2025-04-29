@@ -1,7 +1,7 @@
 ---
 title: "Comfort Job Application Documentation"
-description: "Comfort Job Application index description."
-keywords: "Comfort Job Application index keywords."
+description: "Documentation for Comfort Job Application"
+keywords: "comfort job application, wordpress, wordpress job application plugin, plugin"
 url: "/comfortjobapp/how-to-install"
 type: "type"
 site_name: "Comfort HRM"
@@ -19,11 +19,11 @@ Before we know how to install “Comfort Job Application” plugin if we know ho
 
 ## How to install “Comfort Job Application” Core Plugin
 
-You can install Comfort Job Application plugin from your wordpress dashboard -> Plugins -> Add New and then search by the name. Then download the zip file from wordpress.org [plugin dir](https://wordpress.org/plugins/comfortjobapp/) and install manually.
+~~You can install Comfort Job Application plugin from your wordpress dashboard -> Plugins -> Add New and then search by the name. Then download the zip file from wordpress.org [plugin dir](https://wordpress.org/plugins/comfortjobapp/) and install manually.~~
+The core Comfort Job Application plugin is not available at wordpress plugin directory yet(we will update documentation when it's submitted/updated/approved in wordpress plugin dir). For the now being [download](https://comforthrm.com/product/comfort-job-application-plugin-for-wordpress#downloadarea) it from our website. Core plugin is free.
 
 ## How to install “Comfort Job Application Pro Addon”
 
 **Comfort Job Application Addon** doesn’t work without the core plugin **Comfort Job Application**. So, before you install the pro addon you need to have the core Comfort Job Application plugin installed and activated (if you want to activate this pro addon). So, Comfort Job Application Pro Addon is an addon plugin for core plugin Comfort Job Application.  
-To install CBX Changelog Pro Addon you have to purchase [license and download](https://codeboxr.com/product/cbx-changelog-for-wordpress/#downloadarea) from our website and then install manually.
+To install Comfort Job Application Addon you have to purchase [license and download](https://comforthrm.com/product/comfort-job-application-plugin-for-wordpress#downloadarea) from our website and then install manually.
 
-**Last modified:** December 9, 2024

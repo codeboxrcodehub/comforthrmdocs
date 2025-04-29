@@ -1,7 +1,7 @@
 ---
 title: "Comfort Job Documentation"
-description: "Comfort Job index description."
-keywords: "Comfort Job index keywords."
+description: "Documentation for Comfort Job"
+keywords: "comfort job, wordpress, wordpress job plugin, plugin"
 url: "/comfortjob/how-to-install"
 type: "type"
 site_name: "Comfort HRM"
@@ -18,11 +18,11 @@ Before we know how to install “Comfort Job” plugin if we know how to install
 
 ## How to install “Comfort Job” Core Plugin
 
-You can install Comfort Job plugin from your wordpress dashboard -> Plugins -> Add New and then search by the name. Then download the zip file from wordpress.org [plugin dir](https://wordpress.org/plugins/comfortjob/) and install manually.
+~~You can install Comfort Job plugin from your wordpress dashboard -> Plugins -> Add New and then search by the name. Then download the zip file from wordpress.org [plugin dir](https://wordpress.org/plugins/comfortjob/) and install manually.~~
+The core Comfort Job plugin is not available at wordpress plugin directory yet(we will update documentation when it's submitted/updated/approved in wordpress plugin dir). For the now being [download](https://comforthrm.com/product/comfort-job-wordpress-job-board-plugin#downloadarea) it from our website. Core plugin is free.
 
 ## How to install “Comfort Job Pro Addon”
 
 **Comfort Job Addon** doesn’t work without the core plugin **Comfort Job**. So, before you install the pro addon you need to have the core Comfort Job plugin installed and activated (if you want to activate this pro addon). So, Comfort Job Pro Addon is an addon plugin for core plugin Comfort Job.  
-To install CBX Changelog Pro Addon you have to purchase [license and download](https://codeboxr.com/product/cbx-changelog-for-wordpress/#downloadarea) from our website and then install manually.
+To install Comfort Job Addon you have to purchase [license and download](https://comforthrm.com/product/comfort-job-wordpress-job-board-plugin#downloadarea) from our website and then install manually.
 
-**Last modified:** December 9, 2024

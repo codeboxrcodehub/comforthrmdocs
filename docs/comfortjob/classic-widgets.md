@@ -1,7 +1,7 @@
 ---
 title: "Comfort Job Documentation"
-description: "Comfort Job index description."
-keywords: "Comfort Job index keywords."
+description: "Documentation for Comfort Job"
+keywords: "comfort job, wordpress, wordpress job plugin, plugin"
 url: "/comfortjob/classic-widgets"
 type: "article"
 site_name: "Comfort HRM"
@@ -25,4 +25,3 @@ The following classic widgets(currently 0 widgets (core and pro)) can be accesse
 
 
 
-**Last modified:** December 9, 2024

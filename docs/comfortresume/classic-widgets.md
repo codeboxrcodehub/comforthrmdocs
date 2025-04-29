@@ -1,7 +1,7 @@
 ---
 title: "Comfort Job Application Documentation"
-description: "Comfort Resume index description."
-keywords: "Comfort Resume index keywords."
+description: "Documentation for Comfort Resume"
+keywords: "comfort resume, wordpress, wordpress resume plugin, plugin"
 url: "/comfortresume/classic-widgets"
 type: "type"
 site_name: "Comfort HRM"
@@ -26,4 +26,3 @@ The following classic widgets(currently 2 widgets (core and pro)) can be accesse
 1.  Latest Resume
 2.  Resume List (pro)
 
-**Last modified:** December 9, 2024

@@ -1,7 +1,7 @@
 ---
 title: "Comfort Job Application Documentation"
-description: "Comfort Resume index description."
-keywords: "Comfort Resume index keywords."
+description: "Documentation for Comfort Resume"
+keywords: "comfort resume, wordpress, wordpress resume plugin, plugin"
 url: "/comfortresume/template-override"
 type: "type"
 site_name: "Comfort HRM"
@@ -20,4 +20,3 @@ For pro addon: `wp-content/plugins/comfortresumepro/templates`
 To override any file from your theme you have to create a folder called `comfortresume` inside your theme or child theme and copy files from the plugin’s template folder and put in this newly created folder inside your theme folder `comfortresume`. The process is same as the woocommerce theme file override.  
 
 
-**Last modified:** December 9, 2024

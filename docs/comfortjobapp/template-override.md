@@ -1,7 +1,7 @@
 ---
 title: "Comfort Job Application Documentation"
-description: "Comfort Job Application index description."
-keywords: "Comfort Job Application index keywords."
+description: "Documentation for Comfort Job Application"
+keywords: "comfort job application, wordpress, wordpress job application plugin, plugin"
 url: "/comfortjobapp/template-override"
 type: "type"
 site_name: "Comfort HRM"
@@ -19,4 +19,3 @@ For pro addon: `wp-content/plugins/comfortjobapppro/templates`
 To override any file from your theme you have to create a folder called `comfortjobapp` inside your theme or child theme and copy files from the plugin’s template folder and put in this newly created folder inside your theme folder `comfortjobapp`. The process is same as the woocommerce theme file override.  
 
 
-**Last modified:** December 9, 2024

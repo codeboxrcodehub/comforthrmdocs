@@ -1,7 +1,7 @@
 ---
 title: "Comfort Job Application Documentation"
-description: "Comfort Resume index description."
-keywords: "Comfort Resume index keywords."
+description: "Documentation for Comfort Resume"
+keywords: "comfort resume, wordpress, wordpress resume plugin, plugin"
 url: "/comfortresume/"
 type: "type"
 site_name: "Comfort HRM"
@@ -11,6 +11,6 @@ card: "article"
 ---
 # Comfort Resume Documentation
 
-Welcome to the Comfort Resume main page.
+Create resume in comfort
 
 

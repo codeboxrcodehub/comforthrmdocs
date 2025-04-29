@@ -1,7 +1,7 @@
 ---
 title: "Comfort Job Application Documentation"
-description: "Comfort Job Application index description."
-keywords: "Comfort Job Application index keywords."
+description: "Documentation for Comfort Job Application"
+keywords: "comfort job application, wordpress, wordpress job application plugin, plugin"
 url: "/comfortjobapp/shortcodes"
 type: "type"
 site_name: "Comfort HRM"
@@ -11,4 +11,3 @@ card: "article"
 # Shortcodes
 
 
-**Last modified:** December 9, 2024
