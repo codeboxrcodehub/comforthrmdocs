@@ -21,8 +21,11 @@ The Comfort Job plugin includes an email system to notify users about various ev
 
 #### Available Email Templates
 
-- **New Job Application**: `guest_job_create_to_user.php`(Pro)
-- **Job Approved**: `guest_job_email_verified.php`(Pro)
+- **Job Published Email For User**: `job_published_to_user.php`
+- **New job create admin alert**: `guest_job_create_to_admin.php`
+- **New Job create User alert**: `guest_job_create_to_user.php`(Pro)
+- **Job Approved Admin alert**: `guest_job_verify_to_admin.php`(Pro)
+- **Job Approved User alert**: `guest_job_email_verified.php`(Pro)
 
 ### Single Email Settings
 

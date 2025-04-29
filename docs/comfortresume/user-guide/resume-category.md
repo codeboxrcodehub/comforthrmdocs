@@ -13,7 +13,7 @@ card: "article"
 ### Resume Categories
 
 1. Go to `Comfort Resume > Categories`.
-2. Add new resume categories by filling in the name and description.
+2. Add new resume categories by filling in the name field.
 3. Save changes.
 
 

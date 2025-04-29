@@ -72,7 +72,7 @@ class ComfortResume {
 ### ComfortResumeAdmin
 Handles the admin functionalities of the plugin, located in `ComfortResumeAdmin.php`.
 
-```
+```php
 <?php
 class ComfortResumeAdmin {
     public function create_menus() {
@@ -87,7 +87,7 @@ class ComfortResumeAdmin {
 ### ComfortResumePublic
 Handles the public-facing functionalities of the plugin, located in `ComfortResumePublic.php`.
 
-```
+```php
 <?php
 class ComfortResumePublic {
     public function enqueue_scripts() {
@@ -98,7 +98,7 @@ class ComfortResumePublic {
 ### ComfortResumeShortcode
 Handles the public-facing functionalities of the plugin, located in `ComfortResumeShortcode.php`.
 
-```
+```php
 <?php
 class ComfortResumeShortcode {
     public function init_shortcode() {
@@ -147,7 +147,7 @@ To display the resume dashboard, use the following shortcode:
 
 The uninstallation script is located in ComfortResumeUninstall.php.
 
-```
+```php
 <?php
 ComfortResumeUninstall::uninstall();
 ```

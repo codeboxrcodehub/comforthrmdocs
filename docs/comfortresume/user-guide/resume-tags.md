@@ -13,7 +13,7 @@ card: "article"
 ### Resume Tags
 
 1. Go to `Comfort Resume > Resume Tags`.
-2. Add new resume tags by filling in the name and description.
+2. Add new resume tags by filling in the name field.
 3. Save changes.
 
 

@@ -10,7 +10,7 @@ card: "article"
 
 ---
 
-### Managing Company
+### Managing Company (Pro plugin feature)
 
 1. Go to `Comfort Job > Companies`.
 2. View, edit, or delete companies listings as needed.

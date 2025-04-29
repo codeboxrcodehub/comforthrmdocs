@@ -27,18 +27,17 @@ card: "article"
      } );
      ```
 
-2. **`comfortresume_resume_section_display`**
-   - Triggered when a resume section is displayed.
+2. **`comfortresume_resume_created`**
+   - Triggered when a resume is created.
    - **Parameters**:
-     - `$resume_id` (int): The ID of the resume.
-     - `$type` (string): The type of the section.
-     - `$section_data` (array): Data of the section.
-     - `$resume_data` (array): Data of the resume.
+     - `$resume` (object): The resume object.
+     - `$queryParams` (array): Request query params received in api.
+     - `$source` (string): From where the api is called(frontent/backend).
    - **Example**:
      ```php
-     add_action( 'comfortresume_resume_section_display', function( $resume_id, $type, $section_data, $resume_data ) {
+     add_action( 'comfortresume_resume_created', function( $resume, $queryParams, $source ) {
          // Custom logic for displaying a resume section
-     }, 10, 4 );
+     }, 10, 3 );
      ```
 
 3. **`comfortresume_before_vuejs_mount_after`**

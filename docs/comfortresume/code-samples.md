@@ -19,9 +19,14 @@ use Comfort\Resume\Helpers\ComfortResumeHelpers;
 // Add a new resume
 $resume_data = [
     'name'       => 'John Doe',
+    'slug'       => 'f5fu705f5d',
     'email'      => 'john.doe@example.com',
     'privacy'    => 'public',
-    'sections'   => [
+    'status'     => 'published',
+    'owner'      => 2, // User ID,
+    'is_primary' => 0,
+	'add_date'   => gmdate( 'Y-m-d H:i:s' )
+    'sections'   => json_encode([
         'aboutme' => [
             'given_name'  => 'John',
             'family_name' => 'Doe',
@@ -37,9 +42,9 @@ $resume_data = [
                 'description' => 'Developed web applications.',
             ],
         ],
-    ],
+    ]),
 ];
-$new_resume = ComfortResumeHelpers::addResume($resume_data);
+$new_resume = Resume::create($resume_data);
 ```
 
 ## Fetch Resume Data
@@ -92,28 +97,13 @@ $pdf_html = ComfortResumeProHelpers::displayResumePdfHtml($resume_id, $resume_da
 file_put_contents('resume_' . $resume_id . '.pdf', $pdf_html);
 ```
 
-## Add Custom Sections to a Resume
-
-```php
-use Comfort\ResumePro\Helpers\ComfortResumeProHelpers;
-
-// Add a custom section to a resume
-$custom_section = [
-    'title'   => 'Custom Section',
-    'content' => 'This is a custom section.',
-];
-ComfortResumeProHelpers::addCustomSection($resume_id, $custom_section);
-```
-
-## Bookmark a Resume
+## Delete a Bookmark
 
 ```php
 use Comfort\ResumePro\Models\CBXBookmark;
 
-// Bookmark a resume for a user
-$user_id = get_current_user_id();
 $resume_id = 123;
-$result = CBXBookmark::bookmarkResume($user_id, $resume_id);
+$result = CBXBookmark::find( $id )->delete();
 ```
 
 ---
