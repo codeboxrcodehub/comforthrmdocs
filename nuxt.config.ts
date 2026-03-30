@@ -1,120 +1,120 @@
-import {dirname, join} from 'node:path';
-import {fileURLToPath} from 'node:url';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import tailwindcss from '@tailwindcss/vite';
 
 const currentDir = dirname(fileURLToPath(import.meta.url));
 
 export default defineNuxtConfig({
-    nitro: {
-        //preset: 'github-pages',
-        preset: process.env.PRESET,
+  nitro: {
+    // preset: 'github-pages',
+    preset: process.env.PRESET,
+  },
+  app: {
+    // baseURL: process.env.BASE_URL || '/comforthrmdocs/',
+    baseURL: process.env.NUXT_APP_BASE_URL ?? '/',
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/svg', href: '/logo_icon_brand_512.png' },
+      ],
     },
-    app: {
-        //baseURL: process.env.BASE_URL || '/comforthrmdocsnuxt/',
-        baseURL: process.env.NUXT_APP_BASE_URL ?? '/',
-        head: {
-            link: [
-                { rel: 'icon', type: 'image/svg', href: '/logo_icon_brand_512.png' },
-            ],
-        }
-    },
-    ssr: true,
-    devtools: {enabled: true},
-    modules: [
-        'shadcn-nuxt',
-        '@vueuse/nuxt',
-        '@ztl-uwu/nuxt-content',
-        '@nuxt/image',
-        '@nuxt/icon',
-        '@nuxtjs/color-mode',
-        'nuxt-og-image',
-        '@nuxt/scripts',
-        '@nuxtjs/i18n',
-        '@nuxt/fonts',
+  },
+  ssr: true,
+  devtools: { enabled: true },
+  modules: [
+    'shadcn-nuxt',
+    '@vueuse/nuxt',
+    '@ztl-uwu/nuxt-content',
+    '@nuxt/image',
+    '@nuxt/icon',
+    '@nuxtjs/color-mode',
+    'nuxt-og-image',
+    '@nuxt/scripts',
+    '@nuxtjs/i18n',
+    '@nuxt/fonts',
+  ],
+  shadcn: {
+    prefix: 'Ui',
+    componentDir: join(currentDir, './components/ui'),
+  },
+  components: {
+    dirs: [
+      {
+        path: './components',
+        ignore: ['**/*.ts'],
+      },
     ],
-    shadcn: {
-        prefix: 'Ui',
-        componentDir: join(currentDir, './components/ui'),
+  },
+  i18n: {
+    bundle: {
+      optimizeTranslationDirective: false,
     },
-    components: {
-        dirs: [
-            {
-                path: './components',
-                ignore: ['**/*.ts'],
-            },
-        ],
+    strategy: 'prefix_except_default',
+  },
+  colorMode: {
+    classSuffix: '',
+    disableTransition: true,
+  },
+  css: [
+    join(currentDir, './assets/css/themes.css'),
+    // '~/assets/css/tailwind.css',
+    join(currentDir, './www/assets/css/tailwind.css'),
+    join(currentDir, './assets/css/custom.css'),
+  ],
+  content: {
+    documentDriven: true,
+    highlight: {
+      theme: {
+        default: 'github-light',
+        dark: 'github-dark',
+      },
+      preload: ['json', 'js', 'ts', 'html', 'css', 'vue', 'diff', 'shell', 'markdown', 'mdc', 'yaml', 'bash', 'ini', 'dotenv'],
     },
-    i18n: {
-        bundle: {
-            optimizeTranslationDirective: false,
-        },
-        strategy: 'prefix_except_default',
+    navigation: {
+      fields: [
+        'icon',
+        'navBadges',
+        'navTruncate',
+        'badges',
+        'toc',
+        'sidebar',
+        'collapse',
+        'editLink',
+        'prevNext',
+        'breadcrumb',
+        'fullpage',
+      ],
     },
-    colorMode: {
-        classSuffix: '',
-        disableTransition: true,
+    experimental: {
+      search: {
+        indexed: true,
+      },
     },
-    css: [
-        join(currentDir, './assets/css/themes.css'),
-        //'~/assets/css/tailwind.css',
-        join(currentDir, './www/assets/css/tailwind.css'),
-        join(currentDir, './assets/css/custom.css'),
+  },
+  icon: {
+    clientBundle: {
+      scan: true,
+      sizeLimitKb: 512,
+    },
+  },
+  fonts: {
+    defaults: {
+      weights: ['300 800'],
+    },
+  },
+  typescript: {
+    tsConfig: {
+      compilerOptions: {
+        baseUrl: '.',
+      },
+    },
+  },
+  vite: {
+    plugins: [
+      tailwindcss(),
     ],
-    content: {
-        documentDriven: true,
-        highlight: {
-            theme: {
-                default: 'github-light',
-                dark: 'github-dark',
-            },
-            preload: ['json', 'js', 'ts', 'html', 'css', 'vue', 'diff', 'shell', 'markdown', 'mdc', 'yaml', 'bash', 'ini', 'dotenv'],
-        },
-        navigation: {
-            fields: [
-                'icon',
-                'navBadges',
-                'navTruncate',
-                'badges',
-                'toc',
-                'sidebar',
-                'collapse',
-                'editLink',
-                'prevNext',
-                'breadcrumb',
-                'fullpage',
-            ],
-        },
-        experimental: {
-            search: {
-                indexed: true,
-            },
-        },
+    optimizeDeps: {
+      include: ['debug'],
     },
-    icon: {
-        clientBundle: {
-            scan: true,
-            sizeLimitKb: 512,
-        },
-    },
-    fonts: {
-        defaults: {
-            weights: ['300 800'],
-        },
-    },
-    typescript: {
-        tsConfig: {
-            compilerOptions: {
-                baseUrl: '.',
-            },
-        },
-    },
-    vite: {
-        plugins: [
-            tailwindcss(),
-        ],
-        optimizeDeps: {
-            include: ['debug'],
-        },
-    },
-    compatibilityDate: '2025-05-13',
+  },
+  compatibilityDate: '2025-05-13',
 });
